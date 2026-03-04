@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Training</title>
+</head>
+<body>
+    <h1>JUSTIFY-CONTENT VALUES</h1>
+    <main class="container" id="myContainer">
+        <section class="items"><p>1</p></section>
+        <section class="items"><p>2</p></section>
+        <section class="items"><p>3</p></section>
+        <section class="items"><p>4</p></section>
+    </main>
+
+    <section class="buttons">
+        <button class="values" onclick="start()">flex-start</button>
+        <button class="values" onclick="end()">flex-end</button>
+        <button class="values" onclick="center()">center</button>
+        <button class="values" onclick="evenly()">space-evenly</button>
+        <button class="values" onclick="around()">space-around</button>
+        <button class="values" onclick="between()">space-between</button>
+    </section>
+
+    <script>
+        function start() {
+            var container = document.getElementById("myContainer");
+            container.style.justifyContent = "flex-start";   
+        }
+
+        function end() {
+            var container = document.getElementById("myContainer");
+            container.style.justifyContent = "flex-end";   
+        }
+
+        function center() {
+            var container = document.getElementById("myContainer");
+            container.style.justifyContent = "center";   
+        }
+
+        function around() {
+            var container = document.getElementById("myContainer");
+            container.style.justifyContent = "space-around";   
+        }
+
+        function between() {
+            var container = document.getElementById("myContainer");
+            container.style.justifyContent = "space-between";   
+        }
+
+        function evenly() {
+            var container = document.getElementById("myContainer");
+            container.style.justifyContent = "space-evenly";   
+        }
+    </script>
+</body>
+</html>

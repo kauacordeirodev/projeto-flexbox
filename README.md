@@ -12,7 +12,7 @@
 
 <p align="left"><b>- Visualização em Tempo Real:</b> Alteração imediata do layout ao clicar nos botões de controle.<br><br>
 <b>- Interface Limpa e Moderna:</b> Container estilizado com suporte a transições suaves para uma melhor experiência visual.<br><br>
-<b>- Domínio do Eixo Principal:</b> Demonstração prática dos 6 principais valores de distribuição:<br><br>`flex-start`<br><br>`flex-end`<br><br>`center`<br><br>`space-evenly`<br><br>`space-around`<br><br>`space-between`<br><br><b>- Feedback Interativo:</b> Botões com efeitos de hover e escala para facilitar a navegação.</p>
+<b>- Domínio do Eixo Principal:</b> Demonstração prática dos 6 principais valores de distribuição:<br><br>flex-start<br><br>flex-end<br><br>center<br><br>space-evenly<br><br>space-around<br><br>space-between<br><br><b>- Feedback Interativo:</b> Botões com efeitos de hover e escala para facilitar a navegação.</p>
 
 ###
 
